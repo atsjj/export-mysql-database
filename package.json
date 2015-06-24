@@ -1,0 +1,26 @@
+{
+  "name": "export-mysql-database",
+  "version": "1.0.0",
+  "description": "Nicely export an SQL database without having to remember all the bullshit",
+  "private": true,
+  "main": "index.js",
+  "bin": "./bin/export-mysql-database",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atsjj/export-mysql-database.git"
+  },
+  "author": "Steve Jabour <steve@jabour.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atsjj/export-mysql-database/issues"
+  },
+  "homepage": "https://github.com/atsjj/export-mysql-database#readme",
+  "dependencies": {
+    "clor": "^0.2.1",
+    "commander": "^2.8.1",
+    "ember-cli": "^0.2.7"
+  }
+}
